@@ -72,7 +72,7 @@ with st.expander('Data preparation'):
   st.write('**Encoded y**')
   y
 
- Model training and inference
+# Model training and inference
 ## Train the ML model
 clf = RandomForestClassifier()
 clf.fit(X, y)
